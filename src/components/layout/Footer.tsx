@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
