@@ -14,7 +14,7 @@ const Footer = () => {
               <img 
                 src={logo} 
                 alt="Credence Taxfiling" 
-                className="h-10 w-auto"
+                className="h-12 w-auto"
               />
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
