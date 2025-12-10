@@ -30,33 +30,40 @@ const About = () => {
   ];
 
   const stats = [
-    { icon: Users, number: "15,000+", label: "Happy Clients" },
-    { icon: Award, number: "15+", label: "Years Experience" },
+    { icon: Users, number: "500+", label: "Happy Clients" },
+    { icon: Award, number: "7+", label: "Years Experience" },
     { icon: CheckCircle, number: "98.5%", label: "Success Rate" },
     { icon: Shield, number: "100%", label: "Secure Filing" }
   ];
 
   const team = [
     {
-      name: "Sarah Johnson",
-      role: "Chief Tax Officer",
-      credentials: "CPA, MST",
-      experience: "15+ years",
-      description: "Expert in complex tax situations and international compliance."
+      name: "Chandarlapati Vijayalakshmi",
+      role: "Senior Client Executive",
+      credentials: "EA",
+      experience: "7+ years",
+      description: "Expert in individual and business tax preparation with extensive client management experience."
     },
     {
-      name: "Michael Chen",
-      role: "Business Tax Specialist",
-      credentials: "CPA, CFE",
-      experience: "12+ years",
-      description: "Specializes in business tax planning and corporate structures."
+      name: "Mukkala Gayathri",
+      role: "Tax Specialist",
+      credentials: "EA",
+      experience: "5+ years",
+      description: "Specializes in individual tax filing and NRI tax returns."
     },
     {
-      name: "Emily Rodriguez",
-      role: "Individual Tax Manager",
-      credentials: "EA, AFSP",
-      experience: "10+ years",
-      description: "Focuses on individual tax optimization and audit representation."
+      name: "Nallagokulla Shravya",
+      role: "Tax Associate",
+      credentials: "EA",
+      experience: "3+ years",
+      description: "Focuses on business tax preparation and compliance."
+    },
+    {
+      name: "Disha Mirchandani",
+      role: "Tax Associate",
+      credentials: "EA",
+      experience: "3+ years",
+      description: "Expert in international tax returns and FBAR filing."
     }
   ];
 
@@ -67,7 +74,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <Badge className="bg-secondary text-secondary-foreground px-4 py-2">
-              🏆 Trusted Tax Professionals Since 2009
+              🏆 Trusted Tax Professionals Since 2025
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               About Credence Taxfiling
@@ -116,9 +123,9 @@ const About = () => {
                 Our Story
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Founded in 2009, Credence Taxfiling began with a simple mission: to make tax filing 
-                accessible, accurate, and stress-free for everyone. What started as a small practice 
-                has grown into a trusted tax service helping thousands of individuals and businesses.
+                Founded in 2025, Credence Taxfiling began with a simple mission: to make tax filing 
+                accessible, accurate, and stress-free for everyone. With CIN U69202TS2025PTC and 
+                Registration No. 194424, we are a certified tax service helping individuals and businesses across all US states.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Our team of certified professionals combines years of experience with cutting-edge 

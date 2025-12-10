@@ -114,7 +114,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <p>&copy; 2024 Credence Taxfiling. All rights reserved.</p>
+          <p>&copy; 2025 Credence Taxfiling. CIN: U69202TS2025PTC | Reg No: 194424</p>
           <div className="flex gap-6">
             <Link to="/privacy" className="hover:text-primary transition-smooth">
               Privacy Policy
