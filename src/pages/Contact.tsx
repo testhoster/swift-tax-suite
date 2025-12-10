@@ -13,25 +13,25 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+1 (555) 123-4567", "Toll-free: 1-800-TAX-HELP"],
-      description: "Monday - Friday: 8 AM - 8 PM EST"
+      details: ["+91 8341760666"],
+      description: "Monday - Saturday: 9 AM - 6 PM IST"
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@credencetaxfiling.com", "support@credencetaxfiling.com"],
+      details: ["hr@credence.com"],
       description: "We respond within 2 hours"
     },
     {
       icon: MapPin,
       title: "Office",
-      details: ["123 Financial District", "New York, NY 10004"],
+      details: ["101, 1st Floor, A Block, Ameena Complex", "Opp Survey of India, Metro Pillar C-904", "Uppal, Hyderabad 500039, Telangana"],
       description: "By appointment only"
     },
     {
       icon: Clock,
       title: "Business Hours",
-      details: ["Monday - Friday: 8 AM - 8 PM", "Saturday: 9 AM - 5 PM"],
+      details: ["Monday - Friday: 9 AM - 6 PM", "Saturday: 10 AM - 4 PM"],
       description: "Extended hours during tax season"
     }
   ];
@@ -208,10 +208,12 @@ const Contact = () => {
                     <ArrowRight className="ml-auto" size={16} />
                   </Button>
                   
-                  <Button variant="outline" className="w-full justify-start h-12">
-                    <Phone className="mr-3" size={18} />
-                    Call Now: (555) 123-4567
-                    <ArrowRight className="ml-auto" size={16} />
+                  <Button variant="outline" className="w-full justify-start h-12" asChild>
+                    <a href="tel:+918341760666">
+                      <Phone className="mr-3" size={18} />
+                      Call Now: +91 8341760666
+                      <ArrowRight className="ml-auto" size={16} />
+                    </a>
                   </Button>
                   
                   <Button variant="outline" className="w-full justify-start h-12">
@@ -231,7 +233,7 @@ const Contact = () => {
                   <div className="space-y-2">
                     <h4 className="font-semibold text-foreground">How quickly can you complete my tax return?</h4>
                     <p className="text-sm text-muted-foreground">
-                      Most individual returns are completed within 48 hours. Business returns typically take 3-5 business days.
+                      All returns are completed within 2 business days. We ensure quick turnaround without sacrificing accuracy.
                     </p>
                   </div>
                   
@@ -273,13 +275,17 @@ const Contact = () => {
             Contact us today for your free consultation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="secondary" size="lg" className="text-lg px-8 py-6">
-              <Phone className="mr-2" size={20} />
-              Call (555) 123-4567
+            <Button variant="secondary" size="lg" className="text-lg px-8 py-6" asChild>
+              <a href="tel:+918341760666">
+                <Phone className="mr-2" size={20} />
+                Call +91 8341760666
+              </a>
             </Button>
-            <Button variant="ghost" size="lg" className="text-lg px-8 py-6 text-primary-foreground hover:bg-white/10">
-              <Mail className="mr-2" size={20} />
-              Email Us
+            <Button variant="ghost" size="lg" className="text-lg px-8 py-6 text-primary-foreground hover:bg-white/10" asChild>
+              <a href="mailto:hr@credence.com">
+                <Mail className="mr-2" size={20} />
+                Email Us
+              </a>
             </Button>
           </div>
         </div>
