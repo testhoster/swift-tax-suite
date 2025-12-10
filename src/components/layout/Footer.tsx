@@ -94,19 +94,19 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Mail size={16} className="text-primary" />
-                <a href="mailto:info@credencetaxfiling.com" className="hover:text-primary transition-smooth">
-                  info@credencetaxfiling.com
+                <a href="mailto:hr@credence.com" className="hover:text-primary transition-smooth">
+                  hr@credence.com
                 </a>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Phone size={16} className="text-primary" />
-                <a href="tel:+15551234567" className="hover:text-primary transition-smooth">
-                  +1 (555) 123-4567
+                <a href="tel:+918341760666" className="hover:text-primary transition-smooth">
+                  +91 8341760666
                 </a>
               </div>
               <div className="flex items-start gap-2 text-muted-foreground">
                 <MapPin size={16} className="text-primary mt-0.5" />
-                <span>123 Financial District<br />New York, NY 10004</span>
+                <span>101, 1st Floor, A Block<br />Ameena Complex, Opp Survey of India<br />Metro Pillar C-904, Uppal<br />Hyderabad 500039, Telangana</span>
               </div>
             </div>
           </div>
