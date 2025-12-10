@@ -20,18 +20,18 @@ const Header = () => {
         <div className="container mx-auto px-4 py-2 flex justify-between items-center text-sm">
           <div className="flex items-center gap-6">
             <a 
-              href="mailto:info@credencetaxfiling.com" 
+              href="mailto:hr@credence.com" 
               className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-smooth"
             >
               <Mail size={16} />
-              info@credencetaxfiling.com
+              hr@credence.com
             </a>
             <a 
-              href="tel:+15551234567" 
+              href="tel:+918341760666" 
               className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-smooth"
             >
               <Phone size={16} />
-              +1 (555) 123-4567
+              +91 8341760666
             </a>
           </div>
           <div className="flex items-center gap-4">
