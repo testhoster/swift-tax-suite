@@ -42,10 +42,10 @@ const Home = () => {
   ];
 
   const stats = [
-    { number: "15,000+", label: "Tax Returns Filed" },
+    { number: "500+", label: "Tax Returns Filed" },
     { number: "98.5%", label: "Client Satisfaction" },
-    { number: "$2.3M+", label: "Refunds Processed" },
-    { number: "24/7", label: "Support Available" }
+    { number: "2 Days", label: "Turnaround Time" },
+    { number: "All States", label: "USA Coverage" }
   ];
 
   return (

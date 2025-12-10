@@ -13,16 +13,16 @@ const Services = () => {
     {
       id: "individual",
       title: "Individual Tax Filing",
-      description: "Comprehensive personal tax preparation with maximum refund guarantee",
+      description: "Comprehensive personal tax preparation with maximum refund guarantee. We handle Form 1040-NR, 1040-SR, and 1040-EZ.",
       image: individualTaxImage,
       icon: Users,
-      price: "Starting at $199",
+      price: "Contact for Pricing",
       features: [
-        "W-2, 1099, and all income types",
-        "Itemized and standard deductions",
-        "Tax credit optimization",
-        "Prior year amendments",
-        "Audit support included",
+        "Form 1040-NR for Non-Residents",
+        "Form 1040-SR for Seniors",
+        "Form 1040-EZ Simple Returns",
+        "All 50 US states coverage",
+        "2 business days turnaround",
         "Maximum refund guarantee"
       ],
       includes: [
@@ -35,16 +35,16 @@ const Services = () => {
     {
       id: "business",
       title: "Business Tax Filing",
-      description: "Complete business tax solutions for all entity types",
+      description: "Complete business tax solutions for corporations and partnerships. Form 1120, 1120S, and 1065 expertise.",
       image: businessTaxImage,
       icon: Building,
-      price: "Starting at $499",
+      price: "Contact for Pricing",
       features: [
-        "All business entity types",
-        "Quarterly tax estimates", 
-        "Depreciation calculations",
-        "Business expense optimization",
-        "Multi-state filing",
+        "Form 1120 for C-Corporations",
+        "Form 1120S for S-Corporations", 
+        "Form 1065 for Partnerships",
+        "All 50 US states coverage",
+        "2 business days turnaround",
         "Tax planning strategies"
       ],
       includes: [
@@ -55,25 +55,25 @@ const Services = () => {
       ]
     },
     {
-      id: "international",
-      title: "International Tax Returns",
-      description: "Expert international tax compliance and reporting services",
+      id: "incorporation",
+      title: "Incorporation Tax Services",
+      description: "Expert incorporation tax setup and compliance services for new businesses.",
       image: internationalTaxImage,
       icon: Globe,
-      price: "Starting at $799",
+      price: "Contact for Pricing",
       features: [
-        "FBAR filing (FinCEN 114)",
-        "Foreign income reporting",
-        "Tax treaty benefits",
-        "FATCA compliance",
-        "Expatriate tax services",
-        "Dual citizenship planning"
+        "Business entity setup",
+        "Tax structure optimization",
+        "Compliance guidance",
+        "All 50 US states coverage",
+        "2 business days turnaround",
+        "Ongoing support"
       ],
       includes: [
-        "Form 8938 (FATCA)",
-        "Form 3520 (Foreign trusts)",
-        "Currency conversion",
-        "International tax planning"
+        "Entity selection consultation",
+        "Initial tax registration",
+        "EIN application assistance",
+        "First-year tax planning"
       ]
     }
   ];
@@ -115,7 +115,7 @@ const Services = () => {
     {
       icon: Clock,
       title: "Fast & Accurate Service",
-      description: "Quick turnaround times without sacrificing accuracy. Most returns completed within 48 hours."
+      description: "Quick turnaround times without sacrificing accuracy. All returns completed within 2 business days."
     }
   ];
 
